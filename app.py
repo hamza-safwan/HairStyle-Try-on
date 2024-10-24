@@ -4,7 +4,7 @@ from boto3.dynamodb.conditions import Key
 import csv
 import os
 
-
+#home routing
 app = Flask(__name__)
 
 # Initialize DynamoDB local instance
